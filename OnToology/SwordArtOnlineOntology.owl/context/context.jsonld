@@ -1,0 +1,195 @@
+{
+  "@context" : {
+    "ownsItem" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#ownsItem",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/elements/1.1/created"
+    },
+    "Spear" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Spear"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "Material" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Material"
+    },
+    "hasRealName" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#hasRealName",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "hasNikname" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#hasNikname",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Chest" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Chest"
+    },
+    "GreatAxe" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#GreatAxe"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "OneHanded" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#OneHanded"
+    },
+    "Character" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Character"
+    },
+    "Weapon" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Weapon"
+    },
+    "Equipament" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Equipament"
+    },
+    "Shield" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Shield"
+    },
+    "Player" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Player"
+    },
+    "Dagger" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Dagger"
+    },
+    "isMemberOf" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#isMemberOf",
+      "@type" : "@id"
+    },
+    "Back" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Back"
+    },
+    "WarHammer" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#WarHammer"
+    },
+    "Miscelanea" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Miscelanea"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "hasMember" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#hasMember",
+      "@type" : "@id"
+    },
+    "Hatchet" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Hatchet"
+    },
+    "kills" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#kills",
+      "@type" : "@id"
+    },
+    "Head" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Head"
+    },
+    "Hands" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Hands"
+    },
+    "Consumable" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Consumable"
+    },
+    "Waist" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Waist"
+    },
+    "Boss" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Boss"
+    },
+    "Feet" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Feet"
+    },
+    "isFriendOf" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#isFriendOf",
+      "@type" : "@id"
+    },
+    "Rapier" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Rapier"
+    },
+    "TwoHanded" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#TwoHanded"
+    },
+    "Mob" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Mob"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "RedPlayer" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#RedPlayer"
+    },
+    "hasLevel" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#hasLevel"
+    },
+    "Finger" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Finger"
+    },
+    "isLeaderOf" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#isLeaderOf",
+      "@type" : "@id"
+    },
+    "isKilledBy" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#isKilledBy",
+      "@type" : "@id"
+    },
+    "Neck" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Neck"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "Clan" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Clan"
+    },
+    "Armour" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Armour"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2002/07/owl#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Bot" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Bot"
+    },
+    "Legs" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Legs"
+    },
+    "isOwnedBy" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#isOwnedBy",
+      "@type" : "@id"
+    },
+    "NonPlayer" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#NonPlayer"
+    },
+    "hasLeader" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#hasLeader",
+      "@type" : "@id"
+    },
+    "Item" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Item"
+    },
+    "NonArmor" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#NonArmor"
+    },
+    "Shoulders" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Shoulders"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "Sword" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#Sword"
+    },
+    "GreenPlayer" : {
+      "@id" : "https://w3id.org/def/SwordArtOnlineOntology#GreenPlayer"
+    }
+  }
+}
